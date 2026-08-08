@@ -50,7 +50,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python -m pytest tests/ -v --tb=short --cov=. --cov-report=xml
+          python -m pytest tests/ -v --tb=short
 
       - name: Check Flask application
         run: |
